@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generated Images</title>
+    <style>
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+        }
+        .image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        {% for image in images %}
+            <img src="data:image/png;base64,{{ image }}" class="image" alt="Generated Image">
+        {% endfor %}
+    </div>
+</body>
+</html>
