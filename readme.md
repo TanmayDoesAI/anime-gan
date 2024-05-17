@@ -46,6 +46,9 @@ For those interested in training the Anime-GAN model themselves or making modifi
 
 This allows for customization and experimentation with different model parameters or datasets.
 
+## Screenshots
+![Screenshot of the generations](Screenshot.png)
+
 ## MacBook Users
 
 ### One-Click Setup Script
