@@ -6,7 +6,7 @@ Anime-GAN is a pioneering project that leverages the capabilities of Deep Convol
 ## Installation
 
 ### Prerequisites
-- Anaconda or Miniconda installed on your machine.
+- [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.anaconda.com/free/miniconda/index.html) installed on your machine.
 
 ### Setting Up the Environment
 To set up the project environment and run the application, follow these steps:
@@ -46,7 +46,29 @@ For those interested in training the Anime-GAN model themselves or making modifi
 
 This allows for customization and experimentation with different model parameters or datasets.
 
+## MacBook Users
+
+### One-Click Setup Script
+For MacBook users, you can use the following shell script to simplify the setup and hosting process. Ensure that `jq` is installed on your machine.
+
+1. **Install jq:**
+   ```bash
+   brew install jq
+   ```
+
+2. **Make the `run_app.sh` executable:**
+   ```bash
+   chmod +x run_app.sh
+   ```
+
+3. **Run the script:**
+   ```bash
+   ./run_app.sh
+   ```
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Enjoy exploring the fascinating intersection of AI and anime art with Anime-GAN!
+
+---
