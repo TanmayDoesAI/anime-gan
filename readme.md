@@ -1,7 +1,7 @@
 # Anime-GAN: Exploring Generative Adversarial Networks
 
 ## Overview
-Anime-GAN is a pioneering project that leverages the capabilities of Deep Convolutional Generative Adversarial Networks (DCGAN) to generate high-quality anime faces. Inspired by the website "thispersondoesnotexist.com," this project aims to provide a similar experience but with a focus on anime characters. Each refresh on the project's web page presents a new set of 16 anime faces arranged in a 4x4 grid, showcasing the diversity and artistic potential of the generated characters.
+Anime-GAN is a pioneering project that leverages the capabilities of Deep Convolutional Generative Adversarial Networks (DCGAN) to generate high-quality anime faces. Inspired by the website "[thispersondoesnotexist.com](https://thispersondoesnotexist.com)," this project aims to provide a similar experience but with a focus on anime characters. Each refresh on the project's web page presents a new set of 16 anime faces arranged in a 4x4 grid, showcasing the diversity and artistic potential of the generated characters.
 
 ## Installation
 
@@ -19,7 +19,7 @@ To set up the project environment and run the application, follow these steps:
 
 2. **Install required packages:**
    ```bash
-   conda install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 ### Running the Application
@@ -71,6 +71,7 @@ For MacBook users, you can use the following shell script to simplify the setup 
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+Feel free to contribute to Anime-GAN! We welcome contributions from the community to help improve and expand the project. Whether you're interested in fixing bugs, adding new features, or enhancing documentation, your contributions are highly valued.
 
 Enjoy exploring the fascinating intersection of AI and anime art with Anime-GAN!
 
