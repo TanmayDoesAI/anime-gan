@@ -49,6 +49,34 @@ This allows for customization and experimentation with different model parameter
 ## Screenshots
 ![Screenshot of the generations](Screenshot.png)
 
+## Gradio Integration
+
+#### Setting Up the Gradio App
+
+- **Navigate to the Gradio folder:**
+   ```bash
+   git clone https://github.com/TanmayDoesAI/anime-gan.git
+   cd gradio-app
+   ```
+
+- **Install the required packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+- **Run the Gradio app:**
+   ```bash
+   python app.py
+   ```
+
+#### Accessing the Gradio App
+
+Access the app locally at `http://localhost:7860`. The Gradio interface allows you to generate and view unique anime characters.
+
+#### Hugging Face Space
+
+Explore AnimeGAN on Hugging Face Spaces: [AnimeGAN on Hugging Face](https://huggingface.co/spaces/Tanmay09516/animegan).
+
 ## MacBook Users
 
 ### One-Click Setup Script
